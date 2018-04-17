@@ -14,9 +14,9 @@ app.get('/', function(req, res, next) {
   if (req.query.feedURL) {
     Feed.load(req.query.feedURL, function(err, rss){
       if (err) {
-        res.send({ 'error': 'An error has occurred' });
+        res.jsonp({ 'error': 'An error has occurred' });
       } else {
-        res.send(rss);
+        res.jsonp(rss);
       }
     });
   } else {
