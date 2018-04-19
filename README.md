@@ -1,6 +1,6 @@
-#### RSS to JSON
+#### RSS to JSONP
 
-A `GET` API to convert your rss feed into JSON.
+A `GET` API to convert your rss feed into JSONP.
 
 Special thanks to https://www.npmjs.com/package/rss-to-json
 
@@ -9,7 +9,7 @@ Usage:
 ##### Request
 
 ```
-Request URL: https://morning-earth-19323.herokuapp.com/?feedURL=https://medium.com/feed/@ayusharma.in
+Request URL: YOURHEROKUAPP/?feedURL=https://medium.com/feed/@ayusharma.in
 Request Method:GET
 Status Code:200 OK
 Remote Address:192.168.0.104:5000
