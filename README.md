@@ -2,6 +2,8 @@
 
 A `GET` API to convert your rss feed into JSONP.
 
+Based entirely on https://github.com/ayusharma/RSS-to-JSON
+
 Special thanks to https://www.npmjs.com/package/rss-to-json
 
 Usage:
